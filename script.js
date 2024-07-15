@@ -15,8 +15,8 @@ const formatador = (data) => {
 
 // Object
 const atividade = {
-    nome: "Almoço",
-    data: new Date("2024-07-23 10:00"),
+    nome: "Almoço em restaurante",
+    data: new Date("2024-07-20 13:00"),
     finalizada: false
 }
 
@@ -27,13 +27,13 @@ const atividade = {
 let atividades = [
     atividade, 
     {
-        nome: "Academia",
-        data: new Date("2024-07-24 12:00"),
+        nome: "Visitar um local histórico",
+        data: new Date("2024-07-21 09:00"),
         finalizada: false
     },
     {
-        nome: "Jogar League of Legends",
-        data: new Date("2024-07-29 13:00"),
+        nome: "Conhecer shoppings locais",
+        data: new Date("2024-07-22 13:00"),
         finalizada: false
     }
 ]
@@ -66,7 +66,7 @@ const criarItemDeAtividade = (atividade) => {
                 <span>${atividade.nome}</span>
             </div>
 
-            <time class="short">${formatar.dia.semana.curto}.${formatar.dia.numerico} <br> ${formatar.hora}h</time>
+            <time class="short">${formatar.dia.semana.curto} ${formatar.dia.numerico} <br> ${formatar.hora}h</time>
             <time class="full">${formatar.dia.semana.longo}, dia ${formatar.dia.numerico} de ${formatar.mes} às ${formatar.hora}h</time>
             </div>`
 }
@@ -114,25 +114,6 @@ const salvarAtividade = (event) => {
     atividades = [novaAtividade, ...atividades]
     atualizarListaDeAtividades()
 }
-
-const criarDiasSelecao = () => {
-    const dias = [
-        "2024-02-28",
-        "2024-03-01",
-        "2024-03-02"
-    ]
-
-    let diasSelecao = ''
-
-    for(let dia of dias) {
-        const formatar = formatador(dia)
-        const diaFormatado = `${formatar.dia.numerico} de ${formatar.mes}`
-        diasSelecao += `<option value="${dia}">${diaFormatado}</option>`
-    }
-
-    document.querySelector('select[name="dia"]').innerHTML = diasSelecao
-}
-criarDiasSelecao()
 
 const criarHorasSelecao = () => {
     let horasDisponiveis = ''

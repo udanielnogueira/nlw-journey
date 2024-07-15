@@ -140,6 +140,10 @@ section .card-bg > div {
     gap: 12px;
 }
 
+.input-destino {
+    font-size: 16px;
+}
+
 @media (width > 1024px) {
     #app {
         display: flex;
