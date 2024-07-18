@@ -10,14 +10,15 @@
 - [Screenshot](#screenshot)
 - [Key Features](#key-features)
 - [Live Demo](#live-demo)
+- [Highlights](#highlights)
 - [Built with](#built-with)
 - [Contact](#contact)
 
-## <a id="about"></a> About 
+## <a id="about"></a> About
 
 O Plann.er é uma aplicação responsiva que permite adicionar e concluir eventos a serem realizadas durante uma viagem, adicione o seu destino e planeje o que fazer e em qual horário fazer cada atividade no seu próximo momento incrível.
 
-## Screenshot <a id="screenshot"></a>
+## <a id="screenshot"></a> Screenshot
 
 Desktop
 
@@ -27,7 +28,7 @@ Mobile
 
 <img src="mobile-screenshot.png" height="570px">
 
-## Key Features <a id="key-features"></a>
+## <a id="key-features"></a> Key Features
 
 - [x] Inserir destino
 - [x] Inserir atividade
@@ -36,21 +37,13 @@ Mobile
 - [x] Marcar atividade como concluída
 - [x] Desmarcar atividade concluída
 
-## Live Demo <a id="live-demo"></a>
+## <a id="live-demo"></a> Live Demo
 
 Acesse o Plann.er no link abaixo
 
 [Plann.er](https://udanielnogueira.github.io/nlw-journey-fullstack/)
 
-<!-- ## The Process <a id="the-process"></a> -->
-
-## Built with <a id="built-with"></a>
-
-- JavaScript
-- HTML
-- CSS
-
-## Highlights
+## <a id="highlights"></a> Highlights
 
 Aqui estão alguns trechos de código que eu gostaria de destacar nesse projeto.
 
@@ -116,6 +109,12 @@ const atualizarListaDeAtividades = () => {
 atualizarListaDeAtividades()
 ```
 
-## Contact <a id="contact"></a>
+## <a id="built-with"></a> Built with
+
+- JavaScript
+- HTML
+- CSS
+
+## <a id="contact"></a> Contact
 
 LinkedIn [@udanielnogueira](https://www.linkedin.com/in/udanielnogueira/)
