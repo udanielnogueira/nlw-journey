@@ -13,7 +13,7 @@
 - [Built with](#built-with)
 - [Contact](#contact)
 
-## About <a id="about"></a>
+## <a id="about"></a> About 
 
 O Plann.er é uma aplicação responsiva que permite adicionar e concluir eventos a serem realizadas durante uma viagem, adicione o seu destino e planeje o que fazer e em qual horário fazer cada atividade no seu próximo momento incrível.
 
