@@ -4,26 +4,20 @@
   <p>Um Planejador de Atividades para Viagens desenvolvido em HTML, CSS e JavaScript na NLW Journey da Rocketseat.</p>
 </div>
 
-## Table of contents
+## Table of Contents
 
-- [Overview](#overview)
-  - [About](#about)
-  - [Screenshot](#screenshot)
-  - [Key Features](#key-features)
-  - [Live Demo](#live-demo)
-- [The Process](#the-process)
-  - [Build With](#build-with)
-  - [Preview](#preview)
-  - [Live Demo](#live-demo)
+- [About](#about)
+- [Screenshot](#screenshot)
+- [Key Features](#key-features)
+- [Live Demo](#live-demo)
+- [Built with](#built-with)
 - [Contact](#contact)
 
-## Overview <a id="overview"></a>
-
-### About <a id="about"></a>
+## About <a id="about"></a>
 
 O Plann.er é uma aplicação responsiva que permite adicionar e concluir eventos a serem realizadas durante uma viagem, adicione o seu destino e planeje o que fazer e em qual horário fazer cada atividade no seu próximo momento incrível.
 
-### Screenshot <a id="screenshot"></a>
+## Screenshot <a id="screenshot"></a>
 
 Desktop
 
@@ -33,7 +27,7 @@ Mobile
 
 <img src="mobile-screenshot.png" height="570px">
 
-### Key Features <a id="key-features"></a>
+## Key Features <a id="key-features"></a>
 
 - [x] Inserir destino
 - [x] Inserir atividade
@@ -42,21 +36,21 @@ Mobile
 - [x] Marcar atividade como concluída
 - [x] Desmarcar atividade concluída
 
-### Live Demo <a id="live-demo"></a>
+## Live Demo <a id="live-demo"></a>
 
 Acesse o Plann.er no link abaixo
 
 [Plann.er](https://udanielnogueira.github.io/nlw-journey-fullstack/)
 
-## The Process <a id="the-process"></a>
+<!-- ## The Process <a id="the-process"></a> -->
 
-### Built with <a id="build-with"></a>
+## Built with <a id="built-with"></a>
 
 - JavaScript
 - HTML
 - CSS
 
-### Highlights
+## Highlights
 
 Aqui estão alguns trechos de código que eu gostaria de destacar nesse projeto.
 
@@ -89,8 +83,8 @@ section .card-bg {
 Efeito de sombra mais elaborado.
 ```css
 .card-bg {
-	border-radius: 12px;
-	background: #18181B;
+  border-radius: 12px;
+  background: #18181B;
   
   box-shadow: 
   0px 8px 8px rgba(0, 0, 0, 0.1), 
