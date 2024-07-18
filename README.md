@@ -37,9 +37,7 @@ Mobile
 - [x] Marcar atividade como concluída
 - [x] Desmarcar atividade concluída
 
-<a id="live-demo"></a>
-
-## Live Demo
+<h2 id="live-demo">Live Demo</h2>
 
 Acesse o Plann.er no link abaixo
 
