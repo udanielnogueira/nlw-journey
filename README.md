@@ -10,31 +10,37 @@
   <img src="https://img.shields.io/badge/responsive-yes-ff69b4">
 </div>
 
-## Table of Contents
+## Sumário
 
-- [About](#about)
-- [Screenshot](#screenshot)
-- [Key Features](#key-features)
-- [Live Demo](#live-demo)
-- [Highlights](#highlights)
-- [Built with](#built-with)
-- [Contact](#contact)
+- [Sobre](#about)
+- [Preview](#preview)
+- [Tecnologias](#built-with)
+- [Funcionalidades](#key-features)
+- [Deploy](#deploy)
+- [Destaques](#highlights)
+- [Meu contato](#contact)
 
-<h2 id="about">About</h2>
+<h2 id="about">Sobre</h2>
 
-O Plann.er é uma aplicação responsiva que permite adicionar e concluir eventos a serem realizadas durante uma viagem, adicione o seu destino e planeje o que fazer e em qual horário fazer cada atividade no seu próximo momento incrível.
+O Plann.er é uma aplicação responsiva que permite adicionar e concluir atividades a serem realizadas durante uma viagem, adicione o seu destino e planeje o que fazer e em qual horário fazer cada atividade no seu próximo momento incrível.
 
-<h2 id="screenshot">Screenshot</h2>
+<h2 id="screenshot">Preview</h2>
 
 Desktop
 
-![Desktop Screenshot](desktop-screenshot.png "Desktop Screnshot")
+![Desktop Preview](desktop-screenshot.png "Desktop Preview")
 
 Mobile
 
-<img src="mobile-screenshot.png" height="570px">
+<img src="mobile-screenshot.png">
 
-<h2 id="key-features">Key Features</h2>
+<h2 id="built-with">Tecnologias</h2>
+
+- CSS
+- HTML
+- JavaScript
+
+<h2 id="key-features">Funcionalidades</h2>
 
 - [x] Inserir destino
 - [x] Inserir atividade
@@ -43,17 +49,13 @@ Mobile
 - [x] Marcar atividade como concluída
 - [x] Desmarcar atividade concluída
 
-<h2 id="live-demo">Live Demo</h2>
+<h2 id="deploy">Deploy</h2>
 
 Acesse o Plann.er no link abaixo
 
 [Plann.er](https://udanielnogueira.github.io/nlw-journey-fullstack/)
 
-<h2 id="highlights">Highlights</h2>
-
-Aqui estão alguns trechos de código que eu gostaria de destacar nesse projeto.
-
-<br>
+<h2 id="highlights">Destaques</h2>
 
 Uso da biblioteca Day.js para a formatação e exibição de datas.
 ```html
@@ -115,12 +117,6 @@ const atualizarListaDeAtividades = () => {
 atualizarListaDeAtividades()
 ```
 
-<h2 id="built-with">Built with</h2>
-
-- JavaScript
-- HTML
-- CSS
-
-<h2 id="contact">Contact</h2>
+<h2 id="contact">Meu contato</h2>
 
 LinkedIn [@udanielnogueira](https://www.linkedin.com/in/udanielnogueira/)
