@@ -1,6 +1,6 @@
 <div align="center">
-  
-  <h1>👨🏻‍🚀 <br> nlw-journey-fullstack</h1>
+  <img src="./assets/img/nlw-journey.png">
+  <h1>NLW Journey</h1>
   <p>Um Planejador de Atividades para Viagens desenvolvido em HTML, CSS e JavaScript na NLW Journey da Rocketseat.</p>
   <img src="https://img.shields.io/github/languages/count/udanielnogueira/nlw-journey-fullstack">
   <img src="https://img.shields.io/github/languages/top/udanielnogueira/nlw-journey-fullstack">
@@ -28,11 +28,11 @@ O Plann.er é uma aplicação responsiva que permite adicionar e concluir ativid
 
 Desktop
 
-![Desktop Preview](desktop-screenshot.png "Desktop Preview")
+![Desktop Preview](./assets/img/desktop-screenshot.png "Desktop Preview")
 
 Mobile
 
-<img src="mobile-screenshot.png">
+<img src="./assets/img/mobile-screenshot.png">
 
 <h2 id="built-with">Tecnologias</h2>
 
@@ -58,20 +58,24 @@ Acesse o Plann.er no link abaixo
 <h2 id="highlights">Destaques</h2>
 
 Uso da biblioteca Day.js para a formatação e exibição de datas.
+
 ```html
 <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/dayjs@1/locale/pt-br.js"></script>
-<script>dayjs.locale('pt-br')</script>
+<script>
+  dayjs.locale("pt-br");
+</script>
 ```
 
 <br>
 
 Animação fade-in ao adicionar uma nova atividade.
+
 ```css
 section .card-bg {
   animation: appear 1.5s;
 }
-  
+
 @keyframes appear {
   from {
     opacity: 0;
@@ -82,39 +86,37 @@ section .card-bg {
 <br>
 
 Efeito de sombra mais elaborado.
+
 ```css
 .card-bg {
   border-radius: 12px;
-  background: #18181B;
-  
-  box-shadow: 
-  0px 8px 8px rgba(0, 0, 0, 0.1), 
-  0px 4px 4px rgba(0, 0, 0, 0.1), 
-  0px 2px 2px rgba(0, 0, 0, 0.1), 
-  0px 0px 0px 1px rgba(0, 0, 0, 0.1), 
-  inset 0px 0px 0px 1px rgba(255, 255, 255, 0.03), 
-  inset 0px 1px 0px rgba(255, 255, 255, 0.03);
+  background: #18181b;
+
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1), 0px 4px 4px rgba(0, 0, 0, 0.1),
+    0px 2px 2px rgba(0, 0, 0, 0.1), 0px 0px 0px 1px rgba(0, 0, 0, 0.1),
+    inset 0px 0px 0px 1px rgba(255, 255, 255, 0.03), inset 0px 1px 0px rgba(255, 255, 255, 0.03);
 }
 ```
 
 <br>
 
 Atualizando lista de atividades.
+
 ```js
 const atualizarListaDeAtividades = () => {
-  const section = document.querySelector('section')
-  section.innerHTML = ''
+  const section = document.querySelector("section");
+  section.innerHTML = "";
 
-  if(atividades.length == 0) {
-    section.innerHTML = `<p>Nenhuma atividade cadastrada</p>`
-    return
+  if (atividades.length == 0) {
+    section.innerHTML = `<p>Nenhuma atividade cadastrada</p>`;
+    return;
   }
 
-  for(let atividade of atividades) {
-    section.innerHTML = section.innerHTML + criarItemDeAtividade(atividade)
+  for (let atividade of atividades) {
+    section.innerHTML = section.innerHTML + criarItemDeAtividade(atividade);
   }
-}
-atualizarListaDeAtividades()
+};
+atualizarListaDeAtividades();
 ```
 
 <h2 id="contact">Meu contato</h2>
