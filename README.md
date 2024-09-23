@@ -24,7 +24,7 @@
 
 O Plann.er é uma aplicação responsiva que permite adicionar e concluir atividades a serem realizadas durante uma viagem, adicione o seu destino e planeje o que fazer e em qual horário fazer cada atividade no seu próximo momento incrível.
 
-<h2 id="screenshot">Preview</h2>
+<h2 id="preview">Preview</h2>
 
 Desktop
 
