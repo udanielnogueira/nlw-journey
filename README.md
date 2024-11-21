@@ -1,13 +1,14 @@
 <div align="center">
   <img src="./assets/img/nlw-journey.png">
   <h1>NLW Journey</h1>
-  <p>Um Planejador de Atividades para Viagens desenvolvido em HTML, CSS e JavaScript na trilha Full-Stack da NLW Journey da Rocketseat.</p>
-  <img src="https://img.shields.io/github/languages/count/udanielnogueira/nlw-journey-fullstack">
+   <img src="https://img.shields.io/github/languages/count/udanielnogueira/nlw-journey-fullstack">
   <img src="https://img.shields.io/github/languages/top/udanielnogueira/nlw-journey-fullstack">
   <img src="https://img.shields.io/github/languages/code-size/udanielnogueira/nlw-journey-fullstack">
   <img src="https://img.shields.io/github/last-commit/udanielnogueira/nlw-journey-fullstack">
   <img src="https://img.shields.io/github/deployments/udanielnogueira/nlw-journey-fullstack/github-pages">
   <img src="https://img.shields.io/badge/responsive-yes-ff69b4">
+  <p>Um Planejador de Atividades para Viagens desenvolvido em HTML, CSS e JavaScript na trilha Full-Stack da NLW Journey da Rocketseat.</p>
+ 
 </div>
 
 ## Sumário
